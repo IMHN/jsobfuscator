@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JS Obfuscator | A best Javascript obfuscator.</title>
+
+		<!--
+
+		HELLO CURIOUS!
+		Why you came here?
+		You dont get how i did it! It's the PHP WORK!
+
+		-->
+
+		<!-- META -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+		<meta name="MobileOptimized" content="width" />
+		<meta name="description" content="Free online javascript obfuscator plugin. Protect your javascript code using javascript obfuscator plugin." />
+		<meta name="HandheldFriendly" content="true" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="keywords" content="javascript obfuscator, javascript, obfuscator, free javascript obfuscator, Online javascript obfuscator, free online javascript obfuscator, javascript obfuscator plugin, online javascript obfuscator plugin, free online javascript obfuscator plugin, obfuscator plugin, hex javascript obfuscator plugin, xNN javascript obfuscator plugin, Hex 64 javascript obfuscator plugin" />
+		<link rel="canonical" href="http://jsobfuscator.byethost7.com/" />
+		<meta name="copyright" content="Abhishek Bagul">
+		<meta name="twitter:card" content="summary">
+    	<meta name="twitter:domain" content="http://jsobfuscator.byethost7.com"/>
+   		<meta property="og:type" content="website" />   
+   		<meta name="twitter:title" property="og:title" itemprop="title name" content="The best javascript obfuscator plugin." />
+   		<meta name="twitter:description" property="og:description" itemprop="description" content="Best javascript obfuscator plugin to protect your javascript code from stealing."/>
+   		<meta property="og:url" content="http://jsobfuscator.byethost7.com"/>
+   		<meta name="robots" content="index,nofollow"/>
+
+		<!-- STYLESHEET -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+
+		<!--SCRIPTS-->
+		<script type="text/javascript" src="/assets/js/jquery.js"></script>	
+
+		<!--ANALYTICS-->
+	
+	</head>
+
+
+	<body>
+
+	<!-- MOTHA WALA DABBA -->
+	<div class="container-fluid">
+
+	<!--TOP NAVBAR-->
+	<div class="row">
+		<!--LOGO-->
+		<div class="col-sm-3">
+			<a href="http://thesolutionbox.blogspot.in"><img style="width:100%;" alt="Javascrip Obfuscator : The best javascript obfuscation plugin." src=" data:image/png;base64,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">
+		</a></div>
+		<!--LANDSCAPE-->
+		<div class="col-sm-9">
+ad here
+		</div>
+	</div>
+
+	<!--THE INPUTS-->
+	<div class="row">
+		<div class="col-sm-3" style="min-width:336px;">
+ad here
+		</div>
+		<div class="col-sm-6" >
+		<div style="background:#ededed;">
+
+			<form id='cody' style="padding:20px;" >
+			<h1>Online Free Javascript Obfuscator Tool [v1.0.0]</h1>
+			<div class="row">
+			<div class="col-sm-8">
+			 <div class="progress">
+			  <div id="pss" class="progress-bar progress-bar-striped active" role="progressbar"
+			  aria-valuenow="" aria-valuemin="0" aria-valuemax="100" style="width:00%">
+			    
+			  </div>
+			</div>
+			</div>
+			<div class="col-sm-4">
+			<a style="float:right;" href="https://github.com/abhibagul"><p>Who created this?</p></a>
+			</div>
+			</div>
+			<div class="form-group">
+			<textarea id='res' class="form-control" style="min-height:300px;max-height:300px; height:300px;width:100%;min-width:100%; max-width:100%;" name='cody' placeholder="Put your js code here!!"></textarea>
+			</div>
+			<button style="width:100%;" class="btn btn-default btn-info">Obfuscate</button>
+			</form>
+			
+			</div>
+			<div class="row">
+				<!--C-RIGHTS-->
+				<div class="col-sm-12" style="text-align:center;">
+						<br/><p>&copy; 2016 Abhishek Bagul. All rights reserved.<br/> This plugin uses "Dean Edwards JavaScript's Packer plugin".</p>
+					</div>
+			</div>
+			</div>
+		<div class="col-sm-3">
+			<div class="row">
+					<div class="col-sm-12" style="text-align:center;">
+					<!--DESCRIPTION THINGS!-->
+					<h2>What is it?</h2>
+					<p>JS Obfuscator is a online plugin which will make your code unreadable and hard to decode and protect your javascript codes from getting stolen. It also make it unable to decode using jsbeautifier.</p>
+					<h2>Why to obsfucate the javascript?</h2>
+					<p>It is not must that you should obsfucate the javascript it is upto you to obsfucate or not. But by obsfucating your hardwork and protecting it by getting stolen is better.</p>
+					<h2>Obsfucated script makes error?</h2>
+					<p>There are no errors 99%. The script will work as it was working before. The way of working of script dosent changes it just looks diffrent than the previous.</p>
+					</div>
+			</div>
+		</div>
+		</div>
+
+	</div>
+
+
+
+	<!-- HE NKO CHORU BC -->
+<script type="text/javascript">
+$(document).ready(function() 
+	{
+	 $('#cody').submit(function(event) 
+		{
+		 event.preventDefault();
+		 $data=$('#cody').serialize();
+		 $('#res').attr('disabled','disabled');
+		 $('#pss').attr('style','width:46%');
+		 $('#pss').html('Processing...');
+		 $('#pss').removeClass('progress-bar-warning').removeClass('progress-bar-success').removeClass('progress-bar-danger');
+		 $('#pss').addClass('progress-bar-warning');
+		 $.post('/result.php',$data,function(da) 
+			{
+			 $sta=da.split('|');
+			 if($sta[1]=='0')
+				{
+				$('#pss').removeClass('progress-bar-warning').removeClass('progress-bar-success').removeClass('progress-bar-danger');
+				$('#pss').html('Obfuscated.');
+				$('#pss').addClass('progress-bar-success');
+				$('#res').removeProp('disabled');
+				$('#res').val($.trim($sta[0]));
+				$('#pss').attr('style','width:100%') 
+			}
+			 else
+				{
+				alert($sta[0]);
+				$('#pss').removeClass('progress-bar-warning').removeClass('progress-bar-success').removeClass('progress-bar-danger');
+				$('#pss').html('Error');
+				$('#pss').addClass('progress-bar-danger');
+				$('#pss').attr('style','width:100%');
+				$('#res').removeProp('disabled') 
+			}
+			 
+		}
+		 ) 
+	}
+	 ) 
+}
+ );
+ console.log(" Hello, astronaut! Looking for new planet?");
+</script>
+
+
+	</body>
+
+</html>
